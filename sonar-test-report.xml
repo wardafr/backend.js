@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\wamp64\www\backend-js\tests\user.test.js">
+        <testCase name="Test : Get all users responds with json" duration="78">
+            <failure message="Error: expected &quot;Content-Type&quot; matching /json/, got &quot;text/html; charset=utf-8&quot;"><![CDATA[Error: expected "Content-Type" matching /json/, got "text/html; charset=utf-8"
+    at Object.<anonymous> (C:\wamp64\www\backend-js\tests\user.test.js:9:10)
+    at Promise.then.completed (C:\wamp64\www\backend-js\node_modules\jest-circus\build\utils.js:380:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\wamp64\www\backend-js\node_modules\jest-circus\build\utils.js:315:10)
+    at _callCircusTest (C:\wamp64\www\backend-js\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\wamp64\www\backend-js\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\wamp64\www\backend-js\node_modules\jest-circus\build\run.js:66:9)
+----
+    at Test.Object.<anonymous>.Test._assertHeader (C:\wamp64\www\backend-js\node_modules\supertest\lib\test.js:281:14)
+    at C:\wamp64\www\backend-js\node_modules\supertest\lib\test.js:80:15
+    at Test.Object.<anonymous>.Test._assertFunction (C:\wamp64\www\backend-js\node_modules\supertest\lib\test.js:338:11)
+    at Test.Object.<anonymous>.Test.assert (C:\wamp64\www\backend-js\node_modules\supertest\lib\test.js:209:21)
+    at Server.localAssert (C:\wamp64\www\backend-js\node_modules\supertest\lib\test.js:167:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>
